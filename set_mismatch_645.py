@@ -1,7 +1,7 @@
 """https://leetcode.com/problems/set-mismatch/description/"""
 """======================================================="""
 
-# TC : O(n) | SC : O(n) Constant
+# Time Complexity (TC): O(n) | Space Complexity (SC): O(n) Constant
 def mismatch_hashmap(nums : list[int]) -> list[int]:
     numslen = len(nums)
     actual_sum = int(numslen*(numslen+1)/2)
@@ -22,7 +22,7 @@ def mismatch_hashmap(nums : list[int]) -> list[int]:
     return [extra, actual_sum-(current_sum-extra)]
 
 
-# TC : O(nlogn) | SC : O(1) Constant
+# Time Complexity (TC): O(nlogn) | Space Complexity (SC): O(1) Constant
 def mismatch_sort(nums : list[int]) -> list[int]:
     numslen = len(nums)
     extra = -1

@@ -1,6 +1,7 @@
 """https://leetcode.com/problems/length-of-last-word/"""
 """=================================================="""
 
+# Time Complexity (TC): O(n*n) | Space Complexity (SC): O(1)
 def lenghtOfLastWord(words : str) -> int:
     wordslen = len(words)-1
     last = 0

@@ -1,7 +1,7 @@
 """https://leetcode.com/problems/palindrome-number/description/"""
 """============================================================"""
 
-# TC : O(n) | SC : O(1)
+# Time Complexity (TC): O(n) | Space Complexity (SC): O(1)
 def isPalindrome(x: int) -> bool:
         # Elimination of edge cases
         if(x<0 or (x!=0 and x%10==0)):

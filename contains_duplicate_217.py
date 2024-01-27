@@ -1,7 +1,7 @@
 """https://leetcode.com/problems/contains-duplicate/"""
 """================================================="""
 
-# TC : O(nlogn) | SC : O(1)
+# Time Complexity (TC): O(nlogn) | Space Complexity (SC): O(1)
 def containsDuplicate(nums: list[int]) -> bool:
     nums.sort()
 
@@ -11,7 +11,7 @@ def containsDuplicate(nums: list[int]) -> bool:
         
     return False
 
-# TC : O(n) | SC : O(N)
+# Time Complexity (TC): O(n) | Space Complexity (SC): O(N)
 def containsDuplicate_hash(nums: list[int]) -> bool:
     map = {}
 

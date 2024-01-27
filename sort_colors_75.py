@@ -1,6 +1,6 @@
 """Sort an array which contains only 0,1,2 as element in O(n) TC and O(1) SC"""
 
-# TC : O(nc) - Multiple iterations | SC : O(1)
+# Time Complexity (TC): O(nc) - Multiple iterations | Space Complexity (SC): O(1)
 def sort_three(nums : list[int]) -> list[int]:
     ones = 0
     twos = 0
@@ -28,7 +28,7 @@ def sort_three(nums : list[int]) -> list[int]:
     
     return nums
 
-# TC : O(n) | SC : O(1) | Took help 
+# Time Complexity (TC): O(n) | Space Complexity (SC): O(1) | Took help 
 def sort_three_opt(nums):
     zeros, ones, twos = 0, 0, len(nums) - 1
 
