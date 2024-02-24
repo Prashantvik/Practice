@@ -24,7 +24,7 @@ def final_prices_new(prices : list[int]) -> list[int]:
                 break
             k += 1
     
-    return prices
+return prices
 
 
 # Time Complexity (TC): O(n*n) | Space Complexity (SC): O(n) | Not able to optimise, help
